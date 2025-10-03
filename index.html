@@ -18,7 +18,9 @@
         <h1 id="first">Hello Vite!</h1>
       </div>
     </div>
-
+    <div class="img">
+      <img src="./img.jpeg" alt="" style="height: 400px" />
+    </div>
     <div class="header bg-red-700 text-white flex justify-center mt-4 w-full">
       <div>
         <h1 id="last">Hello Vite!</h1>
@@ -30,10 +32,14 @@
       import { sayHello } from "./say-hello.js";
       import { sayGoodbye } from "./say-goodbye.js";
       import { v4 } from "uuid";
+      import * as person from "./person.json";
 
       sayHello("Farden Ramzy");
       sayGoodbye("Farden Ramzy");
       console.log(v4());
+      console.log(person.name);
+      console.log(person.age);
+      console.log(person.city);
     </script>
   </body>
 </html>
