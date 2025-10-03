@@ -7,10 +7,24 @@
     <title>Hello Vite</title>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @import url(style.css);
-      @import url(sample.sass);
+    <style>body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+      body {
+  background-color: #dafeff;
+}
     </style>
+    <script type="module" crossorigin src="/assets/index-BBayxjOG.js"></script>
   </head>
   <body>
     <div class="header bg-blue-700 text-white flex justify-center w-full">
@@ -24,16 +38,5 @@
         <h1 id="last">Hello Vite!</h1>
       </div>
     </div>
-    <script type="module">
-      console.info("Hello Vite!");
-
-      import { sayHello } from "./say-hello.js";
-      import { sayGoodbye } from "./say-goodbye.js";
-      import { v4 } from "uuid";
-
-      sayHello("Farden Ramzy");
-      sayGoodbye("Farden Ramzy");
-      console.log(v4());
-    </script>
   </body>
 </html>
