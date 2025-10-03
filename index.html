@@ -9,16 +9,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="header bg-pink-500 text-white flex justify-center">
+    <div class="header bg-blue-700 text-white flex justify-center">
       <div>
-        <h1 id="name">Hello Vite!</h1>
+        <h1 id="first">Hello Vite!</h1>
+      </div>
+    </div>
+
+    <div class="header bg-red-700 text-white flex justify-center mt-4">
+      <div>
+        <h1 id="last">Hello Vite!</h1>
       </div>
     </div>
     <script type="module">
       console.info("Hello Vite!");
 
       import { sayHello } from "./say-hello.js";
+      import { sayGoodbye } from "./say-goodbye.js";
       sayHello("Farden Ramzy");
+      sayGoodbye("Farden Ramzy");
     </script>
   </body>
 </html>
