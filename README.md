@@ -42,3 +42,30 @@ export default defineConfig({
 ```
 
 ## Multi Page Aplication
+
+- We can create multiple HTML files in the `public` folder and reference them in our JavaScript code. This allows us to create a multi-page application with Vite.
+
+- Or we can create multiple HTML files in the root of our project and configure Vite to handle multiple entry points.
+  This allows us to create a multi-page application with Vite.
+
+- To do this, we need to configure Vite to handle multiple entry points in the `vite.config.js` file.
+
+```js
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  build: {
+    outDir: "production",
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        blog: "blog.html",
+        contact: "other/contact.html",
+      },
+    },
+  },
+  server: {
+    port: 3000,
+  },
+});
+```
