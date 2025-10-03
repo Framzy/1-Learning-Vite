@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Framzy/1-Learning-Vite#readme",
   "devDependencies": {
+    "typescript": "^5.9.3",
     "vite": "^7.1.9"
   }
 }

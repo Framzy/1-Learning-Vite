@@ -1,7 +1,7 @@
 const sayHello = (name) => {
-  const nameContent = document.getElementById("name");
+  const nameContent = document.getElementById("first");
 
-  nameContent.textContent = "Hello " + name;
+  nameContent.textContent = `Hello ${name}`;
 };
 
 export { sayHello };
