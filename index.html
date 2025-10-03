@@ -33,6 +33,7 @@
       import { sayGoodbye } from "./say-goodbye.js";
       import { v4 } from "uuid";
       import * as person from "./person.json";
+      import textFile from "./hello.txt?raw";
 
       sayHello("Farden Ramzy");
       sayGoodbye("Farden Ramzy");
@@ -40,6 +41,7 @@
       console.log(person.name);
       console.log(person.age);
       console.log(person.city);
+      console.log(textFile);
     </script>
   </body>
 </html>
