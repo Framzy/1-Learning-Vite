@@ -1,2 +1,2 @@
 # 1-Learning-Vite
-Learning vite for frontend tool
+Learning vite for frontend build tool
