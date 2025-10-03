@@ -69,3 +69,22 @@ export default defineConfig({
   },
 });
 ```
+
+## Plugins
+
+- If we want to use framework like React, Vue, or Svelte, we can use plugins to add support for these frameworks. Vite has official plugins for these frameworks, and we can also create our own plugins to extend Vite's functionality. on : https://vite.dev/plugins/
+
+```md
+Example for react
+@vitejs/plugin-react
+
+Uses esbuild and Babel, achieving fast HMR with a small package footprint and the flexibility of being able to use the Babel transform pipeline. Without additional Babel plugins, only esbuild is used during builds.
+```
+
+## Templates
+
+- In vite we can use templates to create new projects with pre-configured settings. This allows us to quickly set up a new project with our preferred framework and configuration. Vite provides official templates for popular frameworks like React, Vue, and Svelte, and we can also create our own templates to suit our needs. To use a template, we can run the following command:
+
+```bash
+npm create vite@latest my-project --template react
+```
