@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hello Vite</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="header bg-pink-500 text-white flex justify-center">
+      <div>
+        <h1 id="name">Hello Vite!</h1>
+      </div>
+    </div>
+    <script type="module">
+      console.info("Hello Vite!");
+
+      import { sayHello } from "./say-hello.js";
+      sayHello("Farden Ramzy");
+    </script>
+  </body>
+</html>

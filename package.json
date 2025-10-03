@@ -1,0 +1,24 @@
+{
+  "name": "1-learning-vite",
+  "version": "1.0.0",
+  "description": "Learning vite for frontend build tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Framzy/1-Learning-Vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Framzy/1-Learning-Vite/issues"
+  },
+  "homepage": "https://github.com/Framzy/1-Learning-Vite#readme",
+  "devDependencies": {
+    "vite": "^7.1.9"
+  }
+}
